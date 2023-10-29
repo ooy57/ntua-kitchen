@@ -1,0 +1,200 @@
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+body {
+  background-color: #f9f9f7;
+  background-image: url(../img/003.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ntua_kit_top {
+  background-color: #474747;
+  padding: 20px;
+}
+
+.ntua_kit_top a {
+  text-decoration: none;
+  color: var(--neutral-02, #f9f9f7);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  display: inline-block;
+  position: relative;
+}
+
+.ntua_kit_top span {
+  padding-left: 40px;
+  vertical-align: middle;
+  display: inline-block;
+  position: relative;
+}
+
+.ntua_kit_top ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  align-items: flex-end;
+  gap: 856px;
+  width: calc(100% - 400px);
+  text-align: right;
+}
+
+.ntua_kit_top ul svg {
+  width: 27.171px;
+  height: 27.171px;
+}
+
+.ntua_kit_nav {
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.ntua_kit_nav svg {
+  width: 56px;
+  height: 55px;
+  flex-shrink: 0;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 40px;
+}
+
+.ntua_kit_nav h1 {
+  color: #474747;
+  font-family: Playfair Display;
+  font-size: 42.667px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 29.333px; /* 68.75% */
+  letter-spacing: -0.4px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.ntua_kit_nav a {
+  text-decoration: none;
+  color: var(--neutral-07, #2c2f24);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.ntua_kit_nav ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  width: calc(100% - 530px);
+  text-align: right;
+}
+
+.ntua_kit_nav span {
+  padding-right: 350px;
+}
+
+.ntua_kit_nav li {
+  display: inline-block;
+  padding: 4px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 34px;
+}
+
+.ntua_kit_nav li:hover {
+  display: inline-flex;
+  padding: 4px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 34px;
+  background: #dbdfd0;
+}
+
+.ntua_kit_nav button {
+  color: var(--neutral-07, #182226);
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 150% */
+  display: inline-flex;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 118px;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  background-color: #ffffff;
+}
+
+.ntua_kit_nav button:hover {
+  background: #2c2f24;
+  color: #ffffff;
+}
+
+.hero-text {
+  text-align: center;
+}
+
+.hero-text h1 {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+  vertical-align: middle;
+  font-family: Playfair Display;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 96px;
+  padding: 30px;
+  padding-top: 200px;
+}
+
+.hero-text h5 {
+  color: var(--neutral-07, #2c2f24);
+  text-align: center;
+  vertical-align: middle;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  padding: 30px;
+  padding-bottom: 50px;
+}
+
+.hero-button {
+  text-align: center;
+}
+
+.hero-button button {
+  display: inline-block;
+  padding: 20px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 118px;
+  border: 1.5px solid var(--neutral-07, #2c2f24);
+  background-color: #ffffff00;
+  color: var(--neutral-07, #182226);
+  text-align: right;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.hero-button button:hover {
+  background-color: #ad343e;
+  color: #ffffff;
+  border-style: none;
+}
